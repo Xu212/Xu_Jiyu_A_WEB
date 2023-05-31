@@ -1,0 +1,26 @@
+body{
+    max-width: 100%;
+}
+.kerdesTar,.kerdes,.valasz{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 4px;
+}
+.kerdes{
+    background-color: red;
+    color:white
+}
+.valasz{
+    text-align: center;
+    margin: 5px;
+}
+.valaszok{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width:800px){
+    .valaszok{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+}

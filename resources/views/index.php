@@ -7,9 +7,13 @@
     <meta name="csrf-token" content=<?php $token = csrf_token(); echo $token;?>>
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="/../js/index.js" type="module"></script>
+    <link rel="stylesheet" href="/../css/stilus.css">
     <title>Xu Jiyu</title>
 </head>
 <body>
-    <article></article>
+    <header><h1>Tesztkérdések</h1></header>
+    <nav><a href="/">tesztek</a></nav>
+    <article><select name="kategoriak" id="kategoria"></select></article>
+
 </body>
 </html>

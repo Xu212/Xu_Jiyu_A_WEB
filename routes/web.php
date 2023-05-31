@@ -20,4 +20,4 @@ Route::get('/', function () {
 });
 Route::get('/tesztek',[teszt::class,'index']);
 Route::get('/tesztek/{id}',[teszt::class,'show']);
-Route::get('/kategoriak',[kategoria::class,'index']);
+Route::get('/kategoria',[kategoria::class,'index']);
